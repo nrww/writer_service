@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/nrww/ISA_labs/writer_service/build",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DXML_DTD -D_DEBUG -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -I/usr/include/mysql -I/usr/local/include/mysql -I/home/nrww/ISA_labs/writer_service/build -isystem /home/nrww/anaconda3/include  -W -Wall -std=c++17 -DREDISCPP_HEADER_ONLY=ON -g -Wall -Wextra -pedantic -Werror -std=gnu++17 -o CMakeFiles/event_writer.dir/main.cpp.o -c /home/nrww/ISA_labs/writer_service/main.cpp",
+  "file": "/home/nrww/ISA_labs/writer_service/main.cpp"
+},
+{
+  "directory": "/home/nrww/ISA_labs/writer_service/build",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DXML_DTD -D_DEBUG -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -I/usr/include/mysql -I/usr/local/include/mysql -I/home/nrww/ISA_labs/writer_service/build -isystem /home/nrww/anaconda3/include  -W -Wall -std=c++17 -DREDISCPP_HEADER_ONLY=ON -g -Wall -Wextra -pedantic -Werror -std=gnu++17 -o CMakeFiles/event_writer.dir/config/config.cpp.o -c /home/nrww/ISA_labs/writer_service/config/config.cpp",
+  "file": "/home/nrww/ISA_labs/writer_service/config/config.cpp"
+},
+{
+  "directory": "/home/nrww/ISA_labs/writer_service/build",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DXML_DTD -D_DEBUG -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -I/usr/include/mysql -I/usr/local/include/mysql -I/home/nrww/ISA_labs/writer_service/build -isystem /home/nrww/anaconda3/include  -W -Wall -std=c++17 -DREDISCPP_HEADER_ONLY=ON -g -Wall -Wextra -pedantic -Werror -std=gnu++17 -o CMakeFiles/event_writer.dir/database/database.cpp.o -c /home/nrww/ISA_labs/writer_service/database/database.cpp",
+  "file": "/home/nrww/ISA_labs/writer_service/database/database.cpp"
+},
+{
+  "directory": "/home/nrww/ISA_labs/writer_service/build",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DXML_DTD -D_DEBUG -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -I/usr/include/mysql -I/usr/local/include/mysql -I/home/nrww/ISA_labs/writer_service/build -isystem /home/nrww/anaconda3/include  -W -Wall -std=c++17 -DREDISCPP_HEADER_ONLY=ON -g -Wall -Wextra -pedantic -Werror -std=gnu++17 -o CMakeFiles/event_writer.dir/database/user.cpp.o -c /home/nrww/ISA_labs/writer_service/database/user.cpp",
+  "file": "/home/nrww/ISA_labs/writer_service/database/user.cpp"
+}
+]
