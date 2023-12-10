@@ -1,3 +1,0 @@
-/home/nrww/ISA_labs/writer_service/build/CMakeFiles/event_writer.dir
-/home/nrww/ISA_labs/writer_service/build/CMakeFiles/edit_cache.dir
-/home/nrww/ISA_labs/writer_service/build/CMakeFiles/rebuild_cache.dir
