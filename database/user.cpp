@@ -349,7 +349,6 @@ namespace database
         {
             Poco::Data::Session session = database::Database::get().create_session();
             Poco::Data::Statement insert(session);
-            _id = this->get_last_id();
             auto hint = Database::sharding_user(_id);
             insert  << "INSERT INTO `user` (`user_id`, `first_name`, `last_name`, `email`, `phone`, `login`, `password`)"
                     << "VALUES(?, ?, ?, ?, ?, ?, ?)"
@@ -380,6 +379,9 @@ namespace database
 
     void User::send_to_queue()
     {
+
+        _id = this->get_last_id();
+
         static cppkafka::Configuration config = {
             {"metadata.broker.list", Config::get().get_queue_host()},
             {"acks", "all"}};

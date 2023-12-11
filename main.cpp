@@ -65,7 +65,7 @@ int main()
                     // Print the payload
                     std::string payload = msg.get_payload();
                     std::cout << msg.get_payload() << std::endl;
-                    std::cout << msg.get_header_list().front().get_name() << " : "<< msg.get_header_list().front().get_value()<< std::endl;
+                    //std::cout << msg.get_header_list().front().get_name() << " : "<< msg.get_header_list().front().get_value()<< std::endl;
                     database::User a = database::User::fromJSON(payload);
                     a.save_to_mysql();
 
